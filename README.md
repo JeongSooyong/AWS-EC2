@@ -39,5 +39,43 @@ powershell 에서 sudo apt update 명령어로 서버에서 설치 가능한 프
 9.<img width="352" height="24" alt="image" src="https://github.com/user-attachments/assets/6d2d94e4-d58e-404d-836b-b93fb96ddc30" />
 내 PC에 있는 프로젝트를 서버로 가져오기 위해 Git을 설치한다.
 
+10.<img width="625" height="30" alt="image" src="https://github.com/user-attachments/assets/6a2c16f4-c661-492b-92c3-0f8cfbab14cf" />
+<img width="625" height="30" alt="image" src="https://github.com/user-attachments/assets/6a2c16f4-c661-492b-92c3-0f8cfbab14cf" />
+나의 깃허브 프로젝트 코드를 서버에 복사하기 위한 명령어
+
+11. <img width="286" height="28" alt="image" src="https://github.com/user-attachments/assets/6b135025-8039-4083-929d-6ea5506fd43c" />
+<img width="286" height="28" alt="image" src="https://github.com/user-attachments/assets/6b135025-8039-4083-929d-6ea5506fd43c" />
+위 과정을 마치면 서버에 폴더가 하나 생긴다. 폴더로 이동.
+
+12. <img width="414" height="33" alt="image" src="https://github.com/user-attachments/assets/f92e69dd-55a1-490a-b46c-e630a4b4f3db" />
+mvn clean package 명령어를 입력해서 이전 빌드 결과를 삭제하고 실행 가능한 jar 파일을 생성한다.
+<img width="414" height="33" alt="image" src="https://github.com/user-attachments/assets/f92e69dd-55a1-490a-b46c-e630a4b4f3db" />
+
+13. <img width="838" height="85" alt="image" src="https://github.com/user-attachments/assets/7e0e1b85-33b7-431f-8943-a95f66c17218" />
+<img width="838" height="85" alt="image" src="https://github.com/user-attachments/assets/7e0e1b85-33b7-431f-8943-a95f66c17218" />
+target 폴더안에 파일 목록을 확인.
+
+14.<img width="806" height="101" alt="image" src="https://github.com/user-attachments/assets/72588d86-d3fb-4698-9b4e-78de04b7cabf" />
+<img width="806" height="101" alt="image" src="https://github.com/user-attachments/assets/72588d86-d3fb-4698-9b4e-78de04b7cabf" />
+target 폴더 안으로 이동한다.
+
+15. <img width="841" height="36" alt="image" src="https://github.com/user-attachments/assets/7926fb70-2e33-4abb-8d41-48f08250ec37" />
+<img width="841" height="36" alt="image" src="https://github.com/user-attachments/assets/7926fb70-2e33-4abb-8d41-48f08250ec37" />
+위 명령어를 입력한다. nohup는 터미널 종료 후에도 앱이 유지되는 명령어.
+app.log 2>&1은 로그를 app.log로 저장하기 위한 명령어
+&는 백그라운드를 실행하기 위한 명령어
+
+16. <img width="448" height="29" alt="image" src="https://github.com/user-attachments/assets/324bf4dc-154f-4527-b0ee-a777afde271c" />
+<img width="448" height="29" alt="image" src="https://github.com/user-attachments/assets/324bf4dc-154f-4527-b0ee-a777afde271c" />
+위 명령어를 입력한다.
+<img width="852" height="39" alt="image" src="https://github.com/user-attachments/assets/15550553-d97c-41b9-a7f3-1d9ac165fe82" />
+마지막에 이러한 문장이 나오면 정상.
+<img width="852" height="39" alt="image" src="https://github.com/user-attachments/assets/15550553-d97c-41b9-a7f3-1d9ac165fe82" />
+
+
+
+
+
+
 
 
